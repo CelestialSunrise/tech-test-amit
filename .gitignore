@@ -1,3 +1,58 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files for Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# User-specific files (Windows)
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore ASP.NET Core secrets file
+appsettings.Development.json
+
+# Ignore npm files for SPA (if using React, Angular, etc.)
+node_modules/
+
+# Ignore build output directories for C#
+bin/
+obj/
+
+# Ignore user-specific files for Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# User-specific files (Windows)
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore ASP.NET Core secrets file
+appsettings.Development.json
+
+# Ignore npm files for SPA (React, Angular, etc.)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore build directories for React (if using Create React App)
+build/
+
+# Ignore package lock files if not needed (for React projects)
+package-lock.json
+
+# Ignore IDE and OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+
 # Logs
 logs
 *.log
